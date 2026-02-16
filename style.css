@@ -1,0 +1,84 @@
+:root{
+  --bg:#0b1220;
+  --panel: rgba(255,255,255,.06);
+  --line: rgba(255,255,255,.12);
+  --text: rgba(255,255,255,.92);
+  --muted: rgba(255,255,255,.65);
+  --accent:#60a5fa;
+}
+
+*{ box-sizing:border-box; }
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  background: radial-gradient(900px 500px at 20% 0%, rgba(96,165,250,.25), transparent 60%),
+              radial-gradient(900px 500px at 80% 0%, rgba(56,189,248,.18), transparent 60%),
+              var(--bg);
+  color:var(--text);
+}
+
+.container{
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.header{
+  margin-bottom: 18px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 16px;
+}
+
+.sub{ color: var(--muted); margin: 6px 0 0; }
+
+.card{
+  margin-top: 14px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 16px;
+}
+
+h1, h2{ margin: 0 0 10px; }
+ul{ margin: 0; padding-left: 18px; }
+
+.grid{
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 10px;
+}
+
+.chip{
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.04);
+  border-radius: 999px;
+  padding: 10px 12px;
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.project{
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.04);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.project a{
+  color: var(--accent);
+  text-decoration: none;
+}
+.project a:hover{ text-decoration: underline; }
+
+.error{
+  margin-top: 16px;
+  color: #ffb4b4;
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Osobní IT profil</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1 id="name">Načítám…</h1>
+      <p class="sub">Dynamicky načteno z <code>profile.json</code></p>
+    </header>
+
+    <section class="card">
+      <h2>Dovednosti</h2>
+      <ul id="skills"></ul>
+    </section>
+
+    <section class="card" id="interests">
+      <h2>Zájmy</h2>
+      <ul class="grid" id="interests-list"></ul>
+    </section>
+
+    <section class="card" id="projects">
+      <h2>Projekty</h2>
+      <div class="projects" id="projects-list"></div>
+    </section>
+
+    <p class="error" id="error"></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
