@@ -1,12 +1,13 @@
 {
   "name": "Aleš Nádvorník",
-  "skills": ["HTML", "CSS", "JavaScript", "Git"],
+  "skills": ["HTML", "CSS", "JavaScript", "Git", "C++"],
   "interests": ["Web development", "Herní grafika", "AI nástroje"],
   "projects": [
     {
-      "title": "Osobní web",
+      "title": "Osobní web ",
       "description": "Jednostránkový profil na GitHub Pages.",
       "link": "https://nadvornikales-source.github.io/it-portfolio/"
     }
   ]
 }
+
