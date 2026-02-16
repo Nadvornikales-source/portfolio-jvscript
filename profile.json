@@ -1,7 +1,7 @@
 {
   "name": "Aleš Nádvorník",
   "skills": ["HTML", "CSS", "JavaScript", "Git", "C++"],
-  "interests": ["Web development", "Herní grafika", "AI nástroje"],
+  "interests": ["Web development", "Herní grafika", "AI nástroje", "Google ads."],
   "projects": [
     {
       "title": "Osobní web ",
@@ -10,5 +10,6 @@
     }
   ]
 }
+
 
 
